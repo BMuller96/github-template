@@ -1,0 +1,28 @@
+name: Solicitação de Feature
+description: Sugira uma ideia ou funcionalidade para este projeto
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por compartilhar sua ideia conosco!
+  - type: textarea
+    id: problem
+    attributes:
+      label: O seu pedido está relacionado a um problema?
+      description: Uma descrição clara e concisa do problema. Ex. Sempre fico frustrado quando [...]
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solução Desejada
+      description: Uma descrição clara e concisa do que você quer que aconteça.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas Consideradas
+      description: Uma descrição clara de soluções alternativas ou recursos que você considerou.
